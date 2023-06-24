@@ -1,4 +1,4 @@
-@extends('layout')
+@extends('skydash-layout')
 
 
 @section('content')

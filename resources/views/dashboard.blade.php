@@ -35,6 +35,9 @@
                 <div class="col-md-6 grid-margin stretch-card">
                     <div class="card tale-bg">
                         <div class="card-people mt-auto">
+
+{{--                            TODO:check how to change this to a player with a background image --}}
+                            <a href="track.detail.html" class="item-media-content" style="background-image: url('{{asset('assets/images/dashboard/people.svg')}}')"></a>
                             <img src="{{asset('assets/images/dashboard/people.svg')}}" alt="people">
                             <div class="weather-info">
                                 <div class="d-flex">

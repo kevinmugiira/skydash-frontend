@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class MasterController extends Controller
+class ContactController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -13,17 +13,7 @@ class MasterController extends Controller
      */
     public function index()
     {
-        return view('master');
-    }
-
-    public function skydashLayout()
-    {
-        return view('skydash-layout');
-    }
-
-    public function podcastMasterLayout()
-    {
-        return view('podcast-master-layout');
+        return view('podcast-master.contact');
     }
 
     /**
